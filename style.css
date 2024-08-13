@@ -1,0 +1,138 @@
+    /*PALETA DE COLORES( #6d89ae , #96a6bc,  #c3b7a7, #dcb590 #c59e76, #aa7852, #a04f50, #97442e);*/
+html, body {
+    min-height: 100%;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(
+    #6d89ae 20%,
+    #96a6bc 30%,
+    #c3b7a7 45%,
+    #dcb590 55%,
+    #c59e76 70%,
+    #aa7852 80%
+  );
+}
+
+h1{font-weight: bolder;}
+h2{font-weight: bolder;}
+h3{font-weight: bolder;}
+a{font-weight: bold;}
+p{font-weight: bold;}
+
+/*BOTONES*/
+
+#botonContactame, #botonOlvidame{
+    color:  #6d89ae;
+    font-weight:bolder;
+    background-color: rgba(0, 0, 0, 0.493);
+    background-image: url(assets/Boton2.jpg);
+    width: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: darken;
+    border: transparent;
+    line-height: 195px;
+    z-index: 2;
+}
+
+#botonOlvidame{
+    transform: scaleX(-1);
+}
+
+#contacto{
+    background:linear-gradient(#aa7852, #a04f50, #97442e);
+}
+#presentacion {
+    height: 115vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.proyecto {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#proyecto-1{
+    background-image: url("assets/Stuart.png");
+    background-size: cover;
+    font-weight: bolder;
+}
+
+#proyecto-2{
+    background-image: url("assets/ClonGoogle.png");
+    background-size: cover;
+}
+
+#proyecto-3{
+    background-image: url("assets/nuevo-logo.gif");
+}
+
+
+
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+
+.texto-gigante{
+    font-size: 80px;
+}
+/*EDICIÓN DE IMAGENES*/
+
+.carousel-item{
+    mix-blend-mode: darken;
+}
+
+#fotoDeMi{
+    width: 90%;
+}
+/*AQUI EMPIEZAN LAS ANIMACIONES, DEJAR AL ULTIMO*/
+
+.nube{
+    background-size: 100% 100%;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    
+}
+.nube1{   
+    width: 500px;
+    height: 500px;
+    background-image: url("./assets/nube1.png");
+}
+.nube2{
+    width: 500px;
+    height: 500px;
+    background-image: url("./assets/nube2.png");
+}
+.nube3{
+    width: 500px;
+    height: 500px;
+    background-image: url("./assets/nube3.png");
+}
+.nube4{
+    width: 500px;
+    height: 500px;
+    background-image: url("./assets/nube4.png");
+}
+.nube5{
+    width: 563px;
+    height: 500px;
+    background-image: url("./assets/nube5.png");
+}
+.nube6{
+    width: 563px;
+    height: 500px;
+    background-image: url("./assets/nube6.png");
+}
+.nube7{
+    width: 563px;
+    height: 500px;
+    background-image: url("./assets/nube7.png");
+}
+
+
+  
